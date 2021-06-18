@@ -1,0 +1,81 @@
+.pelicula_content{
+    margin: 5% auto;
+    width: 80%;
+}
+
+/****************** crear *****************/
+.crearPeli-cont{
+    width: 70%;
+    height: 470px;
+    background: white;
+    box-shadow: 0 0 4px rgb(82, 82, 82), 0 0 10px rgb(82, 82, 82);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    overflow-y: scroll;
+}
+.crearPeli-cont h4{
+    text-align: center;
+    margin-top: 3%;
+}
+.crearPeli-cont .crear-form{
+    margin: auto;
+    width: 70%;
+}
+.crearPeli-cont i{
+    position: absolute;
+    right: 0;
+    padding: 2%;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+.crearPeli-cont Button{
+    margin: 2%;
+}
+
+/************** editar  ****************/
+.editPeli-cont{
+    width: 70%;
+    height: 470px;
+    background: white;
+    box-shadow: 0 0 4px rgb(82, 82, 82), 0 0 10px rgb(82, 82, 82);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    overflow-y: scroll;
+}
+.editPeli-cont .btn{
+    margin: 3%;
+}
+.editPeli-cont h4{
+    text-align: center;
+    margin-top: 3%;
+}
+.editPeli-cont .edit-form{
+    margin: auto;
+    width: 70%;
+}
+.editPeli-cont .tabla-Teatro{
+    margin: 4% auto;
+    width: 70%;
+}
+.editPeli-cont .select-Teatros{
+    margin: auto;
+    width: 40%;
+}
+.editPeli-cont .agreg-teatro{
+    text-align: center;
+}
+.editPeli-cont i{
+    position: absolute;
+    right: 0;
+    padding: 2%;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}

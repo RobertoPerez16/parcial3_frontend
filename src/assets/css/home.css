@@ -1,0 +1,42 @@
+.home-conten{
+    margin-top: 40px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+/**************************************/
+
+.menu{
+    background: rgb(32, 220, 245);
+    box-shadow: 0 0 4px rgb(78, 78, 78), 0 0 5px rgb(78, 78, 78);
+    border-radius: 20px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 2%;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    background: rgb(77, 227, 247);
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(min-width:576px){
+
+    .home-conten{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+}

@@ -1,0 +1,85 @@
+.festival-conten{
+    margin: 5% auto;
+    width: 80%;
+}
+
+.spn{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+/************** editar  ****************/
+.editFest-cont{
+    width: 70%;
+    height: 470px;
+    background: white;
+    box-shadow: 0 0 4px rgb(82, 82, 82), 0 0 10px rgb(82, 82, 82);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    overflow-y: scroll;
+}
+.editFest-cont .btn{
+    margin: 3%;
+}
+.editFest-cont h4{
+    text-align: center;
+    margin-top: 3%;
+}
+.editFest-cont .edit-form{
+    margin: auto;
+    width: 70%;
+}
+.editFest-cont .tabla-Teatro{
+    margin: 4% auto;
+    width: 70%;
+}
+.editFest-cont .select-Teatros{
+    margin: auto;
+    width: 40%;
+}
+.editFest-cont .agreg-teatro{
+    text-align: center;
+}
+.editFest-cont i{
+    position: absolute;
+    right: 0;
+    padding: 2%;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+
+/**************** crear  ********************/
+.crearFest-cont{
+    width: 70%;
+    height: 470px;
+    background: white;
+    box-shadow: 0 0 4px rgb(82, 82, 82), 0 0 10px rgb(82, 82, 82);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    overflow-y: scroll;
+}
+.crearFest-cont h4{
+    text-align: center;
+    margin-top: 3%;
+}
+.crearFest-cont .crear-form{
+    margin: auto;
+    width: 70%;
+}
+.crearFest-cont i{
+    position: absolute;
+    right: 0;
+    padding: 2%;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
